@@ -28,6 +28,7 @@
   <!-- CSS : implied media="all" -->
   <link rel="stylesheet" href="css/style.css?v=2">
   <link rel="stylesheet" href="css/sticky_footer.css?v=2">
+  <link rel="stylesheet" href="css/litfs.css?v=2">
 
   <!-- Uncomment if you are specifically targeting less enabled mobile browsers
   <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
@@ -40,17 +41,105 @@
 <body>
 
   <div id="wrap">
+    <div class="shadow main_column">
     <header>
-
     </header>
     
-    <div id="main">
+    <section id="main">
+      <section class="cloak_of_darkness">
+        <p></p>Hurrying through the rainswept November night, you're glad to see the bright
+lights of the Opera House. It's surprising that there aren't more people about
+but, hey, what do you expect in a cheap demo game...?</p>
 
+
+<h1>Cloak of Darkness</h1>
+<p>A basic IF demonstration.</p>
+<cite>Release 1 / Serial number 990917 / Inform v6.20 Library 6/8 SD</cite>
+
+<h2>Foyer of the Opera House</h2>
+<p>You are standing in a spacious hall, splendidly decorated in red and gold, with
+glittering chandeliers overhead. The entrance from the street is to the north,
+and there are doorways south and west.</p>
+
+<p class="command">&gt;&nbsp;GO NORTH</p>
+<p>You've only just arrived, and besides, the weather outside seems to be getting
+worse.</p>
+
+<p class="command">&gt;&nbsp;GO SOUTH</p>
+
+<h2>Darkness</h2>
+<p>It is pitch dark, and you can't see a thing.</p>
+
+
+<p class="command">&gt;&nbsp;EXAMINE ME</p>
+<p>In the dark? You could easily disturb something!</p>
+
+<p class="command">&gt;&nbsp;NORTH</p>
+
+<h2>Foyer of the Opera House</h2>
+
+<p class="command">&gt;&nbsp;LOOK</p>
+
+
+<h2>Foyer of the Opera House</h2>
+<p>You are standing in a spacious hall, splendidly decorated in red and gold, with
+glittering chandeliers overhead. The entrance from the street is to the north,
+and there are doorways south and west.</p>
+
+<p class="command">&gt;&nbsp;WEST</p>
+
+<h2>Cloakroom</h2>
+<p>The walls of this small room were clearly once lined with hooks, though now only
+one remains. The exit is a door to the east.</p>
+
+<p class="command">&gt;&nbsp;EXAMINE THE HOOK</p>
+<p>It's just a small brass hook, screwed to the wall.</p>
+
+<p class="command">&gt;&nbsp;EXAMINE ME
+<p>As good-looking as ever.</p>
+
+<p class="command">&gt;&nbsp;INVENTORY</p>
+<p>You are carrying:</p>
+<ul>
+<li>a velvet cloak (being worn)</li>  
+</ul>
+
+<p class="command">&gt;&nbsp;TAKE OFF THE CLOAK</p>
+<p>You take off the velvet cloak.</p>
+
+<p class="command">&gt;&nbsp;EXAMINE IT</p>
+<p>A handsome cloak, of velvet trimmed with satin, and slightly spattered with
+raindrops. Its blackness is so deep that it almost seems to suck light from the
+room.</p>
+
+<p class="command">&gt;&nbsp;HANG IT ON THE HOOK</p>
+<p>You put the velvet cloak on the small brass hook.</p>
+
+<cite>[Your score has just gone up by one point.]</cite>
+
+<p class="command">&gt;&nbsp;EAST</p>
+
+<h2>Foyer of the Opera House</h2>
+
+<p class="command">&gt;&nbsp;SOUTH</p>
+
+<h2>Foyer bar</h2>
+<p>The bar, much rougher than you'd have guessed after the opulence of the foyer to
+the north, is completely empty. There seems to be some sort of message scrawled
+in the sawdust on the floor.</p>
+
+      </section>
+    </section>
+    <aside id="inventory">
+    </aside>
+    <aside id="compass">
+    </aside>
+    <section id="input">
+      <form>&gt;<input id="command_line" type="text"></input></form>
+    </section>
     </div>
-    
   </div> <!--! end of #container -->
   <footer id="footer">
-    <p>footer</p>
   </footer>
 
 
